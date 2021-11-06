@@ -12,7 +12,7 @@ import {
   CurrentUserBadgeMobile,
 } from '../CurrentUserBadge';
 import { ConnectButton } from '@oyster/common';
-import ImageWithBasePath from '../ImageWithBasePath';
+
 
 const getDefaultLinkActions = (connected: boolean) => {
   return [
