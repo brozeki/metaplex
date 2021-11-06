@@ -33,3 +33,7 @@ hfuzz_workspace
 js/packages/web/.env
 traits
 traits-configuration.json
+js/packages/web/.env
+js/packages/web/src/components/ImageWithBasePath.tsx
+js/packages/web/src/components/AppBar/index.tsx
+js/packages/web/tsconfig.json

@@ -12,6 +12,7 @@ import {
   CurrentUserBadgeMobile,
 } from '../CurrentUserBadge';
 import { ConnectButton } from '@oyster/common';
+import ImageWithBasePath from '../ImageWithBasePath';
 
 const getDefaultLinkActions = (connected: boolean) => {
   return [
@@ -50,7 +51,7 @@ const MetaplexMenu = () => {
     return (
       <>
         <Modal
-          title={<img src={'/metaplex-logo.svg'} />}
+          title= {<img src={'/metaplex-logo.svg'} />}
           visible={isModalVisible}
           footer={null}
           className={'modal-box'}
@@ -109,7 +110,7 @@ const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/metaplex-logo.svg'} />
+      <ImageWithBasePath src={'/metaplex-logo.svg'} />
     </Link>
   );
 };
