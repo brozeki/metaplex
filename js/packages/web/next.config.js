@@ -23,7 +23,7 @@ const plugins = [
 ];
 
 module.exports = withPlugins(plugins, {
-  basePath: '/metaplex',
+  //basePath: '/metaplex',
   assetPrefix,
   reactStrictMode: true,
   eslint: {
